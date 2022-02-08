@@ -96,3 +96,7 @@ h4{
     width: 300px;
 }
 }
+
+.address {
+    color: var(--fourth-color);
+}
