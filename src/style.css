@@ -127,3 +127,13 @@ h4{
     text-align: center;
 }
 }
+
+.code-link {
+    text-decoration: none;
+    color: var(--fourth-color);
+}
+
+.code-link:hover {
+    text-decoration: underline;
+    color:var(--secondary-color);
+}
