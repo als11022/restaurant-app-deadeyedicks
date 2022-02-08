@@ -2,16 +2,28 @@
     --heading-font-family: 'Poppins', sans-serif;
      --default-font-family: 'Poppins', sans-serif;
      --branding-color: #6E9A92;
-     --secondary-color: #F9F7FE;
+     --secondary-color: #FCF5D8;
+     --third-color: #936131;
+     --fourth-color: #214F70;
  }
 
  body {
     font-family: var(--default-font-family);
+    background-color: var(--branding-color);
+    color: white;
 }
 h1, h2, h3, h4, h5, h6 {
  
     font-family: var(--heading-font-family);
     font-weight: bold;
+}
+
+h2 {
+    color: var(--third-color);
+}
+
+.open-title {
+    color: #214F70;
 }
 
 .hours-info {
@@ -41,5 +53,24 @@ h1, h2, h3, h4, h5, h6 {
 .logo-image {
     height:500px;
     width: 500px;
+}
 
+.btn-branding {
+    border: 1px solid var(--fourth-color);
+    background-color: var(--fourth-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 18px 48px;
+}
+
+.btn-branding:hover {
+    border: 2px solid var(--fourth-color);
+    background-color: var(--branding-color);
+    border-radius: 4px;
+    color: var(--fourth-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 18px 48px;
 }
