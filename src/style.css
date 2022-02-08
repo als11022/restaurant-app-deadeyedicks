@@ -89,13 +89,6 @@ h4{
     color: var(--secondary-color);
 }
 
-@media (max-width:576px) {
-    
-.logo-image {
-    height:300px;
-    width: 300px;
-}
-}
 
 .address {
     color: var(--fourth-color);
@@ -106,4 +99,31 @@ h4{
     width: 200px;
     display: block;
     margin: 0 auto;
+}
+@media (max-width:576px) {
+    
+.logo-image {
+    height:300px;
+    width: 300px;
+}
+.octo {
+    height: 100px;
+    width: 100px;
+}
+.home-description {
+    font-size: 18px;
+}
+.about {
+    text-align: center;
+}
+.hours {
+    font-size: 12px;
+}
+.food-info {
+    text-align: center;
+}
+.find-us {
+    margin-top: 30px;
+    text-align: center;
+}
 }
